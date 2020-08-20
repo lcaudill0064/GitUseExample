@@ -22,11 +22,20 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="006-jo-JPc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-nI-lY1">
+                                <rect key="frame" x="95" y="163" width="225" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="qfP-nI-lY1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="119" id="0Kr-s3-mZ4"/>
                             <constraint firstItem="dkR-k3-mJh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2nO-Jh-6eV"/>
                             <constraint firstItem="dkR-k3-mJh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="6nc-FX-DG6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qfP-nI-lY1" secondAttribute="trailing" constant="94" id="AhQ-Ee-6ey"/>
+                            <constraint firstItem="qfP-nI-lY1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ILR-iF-FfH"/>
                             <constraint firstItem="dkR-k3-mJh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c0F-6z-KaO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
